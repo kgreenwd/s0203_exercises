@@ -1,0 +1,74 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  /*why are these here? what do they do?*/
+  background: #C3FF68;
+	text-align: center;
+ 	color: white;
+}
+img {
+  margin: 30px 20px 40px 20px; 
+}
+.selfie {
+  margin: 0;
+  border-radius: 100px;
+}
+/*for now, change later*/
+h1 {
+  margin: 0 0 15px 0;
+  font-weight: bold;
+  font-size: 50px;
+  color: black;
+}
+h2 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+h3 {
+  margin: 0 0 30px 0;
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
+article {
+  background-color: rgba(0,0,0,.25);
+  font-size: 20px;
+}
+div {
+  display: inline-block;
+  width: 300px;
+  margin: 10px;
+}
+p{
+  font-size: 20px;
+}
+a {
+  font-size: 24px;
+  color: #E1F5C4;
+}
+/*divs are black and show their title text until they are hovered over
+upon which show their content text
+div {
+  height: 250px;
+  background-color: black;
+  font-size: 20px;
+  margin: 0;
+  padding: 5px;
+}
+.show-content div {
+  height: 250px;
+                        background-color: rgba(0,0,0,.2);
+  background-color: red;
+  font-size: 20px;
+                        probably don't need this bc redundant. same with height
+  margin: 0;
+  padding: 5px;
+}
+/*lighter text, like a whisper
+light {
+  font-size: 14px;
+}*/
+small {
+  font-size: 14px;
+}
