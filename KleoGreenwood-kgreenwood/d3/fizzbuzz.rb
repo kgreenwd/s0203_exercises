@@ -1,5 +1,5 @@
 def fizzbuzz(max_val)
-	curr = 1;
+	curr = 1
 	while curr <= max_val
 		if curr%15 == 0
 			puts "fizzbuzz"
@@ -14,4 +14,5 @@ def fizzbuzz(max_val)
 	end
 end
 
-fizzbuzz(100)
+puts fizzbuzz(100)
+#return value of fizzbuzz is nil bc the last evaluated line is "end"?
