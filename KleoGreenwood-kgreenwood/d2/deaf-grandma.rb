@@ -5,7 +5,7 @@ wasShouted = false;
 while byecount < 3
 	response = gets.strip
 	if response == "BYE"
-		byecount = byecount + 1
+		byecount += 1
 		puts "WHAT'S THAT?! YOU WANT SOME PIE?"
 	else
 		byecount = 0

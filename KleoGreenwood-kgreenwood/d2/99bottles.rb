@@ -2,7 +2,7 @@ count = 99;
 
 while count > 2
 	puts "#{count} bottles of beer on the wall, #{count} bottles of beer.\nTake one down and pass it around, " + (count-1).to_s + " bottles of beer on the wall."
-	count = count-1
+	count -= 1
 end
 puts "3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall."
 puts "2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle of beer on the wall."
