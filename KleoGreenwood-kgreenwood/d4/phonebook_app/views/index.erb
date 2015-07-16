@@ -1,0 +1,8 @@
+<a href="/contacts">Click here to see all contacts</a>
+<br>
+<br>
+
+<% @contacts_array.each do |name| %>
+	<a href="/contacts/<%= name %>"><%= name.capitalize %></a>
+	<br>
+<% end %>
