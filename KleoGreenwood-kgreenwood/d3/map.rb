@@ -1,6 +1,6 @@
 result = []
 engines = ["Google", "Bing", "Ask Jeeves"]
-engines.each do |e|
+engines.map do |e|
   if e == "Google"
     result.push("OK")
   elsif e == "Bing"

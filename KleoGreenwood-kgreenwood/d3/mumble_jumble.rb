@@ -5,7 +5,8 @@ def jumble(sentence)
 end
 
 def mumble(sentence)
-	return sentence if sentence.empty?
+	#don't need to check if it's empty because downcase will return an empty string
+	#return sentence if sentence.empty?
 
 	sentence.downcase
 end

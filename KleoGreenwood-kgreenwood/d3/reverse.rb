@@ -1,4 +1,4 @@
-def reverse array
+def reverse(array)
 	reversed_array = []
 	array.each do |element|
 		reversed_array.insert(0, element)
