@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>Phonebook App</title>
+		<!-- our personal stylesheet goes AFTER the bootstrap one so that ours overrides theirs -->
+
+		<!-- bootstrap css -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+		<!-- custom theme -->
+		<link rel="stylesheet" type="text/css" href="/stylesheets/jumbotron-narrow.css">
+
+		<!-- custom styles -->
+		<link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+	</head>
+
+<body>	
+	<div class="container">
+	<%= erb :nav %>
+	<%#- all the other index files will be loaded at the yield tag %>
+	<%= yield %>
+	<%= erb :footer %>
+	 </div> <!-- container -->
+
+	<!-- bootstrap javascript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	</body>
+</html>
